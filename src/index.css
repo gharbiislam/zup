@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Inter', 'sans-serif';
+}
+
+h1{
+    @apply text-h1 text-black;
+}
+h2{
+    @apply text-h2 text-black_60;
+}
+h3 {
+    @apply text-h3 text-black;
+}
+h4 {
+    @apply text-h4 text-black;
+}
+h5 {
+    @apply text-h5 text-black;
+}
+
+.logo_black{
+    @apply text-black text-logo uppercase italic
+} 
+.logo_white{
+    @apply text-white text-logo uppercase italic
+}
+
+.web a{
+    @apply text-black text-body   hover:[word-spacing:-0.3rem]
+}
+.mobile a{
+    @apply text-black text-h4 hover:[word-spacing:-0.3rem]
+}
+
