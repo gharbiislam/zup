@@ -4,30 +4,24 @@ import { FaBars, FaTimes } from 'react-icons/fa'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-const Navbar = () => { 
-   const [nav, setNav] = useState(false)
-  const handleClick = () => setNav(!nav) 
-  
-     useEffect(() => {
+const Navbar = () => {
+  const [nav, setNav] = useState(false)
+  const handleClick = () => setNav(!nav)
+
+  useEffect(() => {
     AOS.init({
-      duration: 100, 
-      once: false,  
+      duration: 100,
+      once: false,
     })
     AOS.refresh()
-  },[nav])
-
-  
-
-
-
-
+  }, [nav])
 
   return (
 
     <header className='  flex justify-between items-center lg:px-10 px-6 py-4  '>
-      
+
       <span className='logo_black'>2zup</span>
-      
+
       <nav className='hidden lg:flex gap-16 items-center web '>
         <ul className='flex gap-10 '>
           <li><a href="#projects" > [ Projects ]</a></li>
@@ -40,25 +34,20 @@ const Navbar = () => {
         <Button>Get in Touch</Button>
       </nav>
 
-     <button
-        onClick={handleClick}
-        className="lg:hidden z-10 group h-20 w-20 rounded-lg  grid place-content-center"
-      >
+      <button onClick={handleClick}
+        className="lg:hidden z-10 group h-20 w-20 rounded-lg  grid place-content-center" >
         <div className="grid justify-items-center gap-1.5">
           <span
-            className={`h-[2px] w-[30px] rounded-full bg-black transition-transform duration-100 ${
-              nav ? "-rotate-45 translate-y-2.5" : ""
-            }`}
+            className={`h-[2px] w-[30px] rounded-full bg-black transition-transform duration-100 ${nav ? "-rotate-45 translate-y-2.5" : ""
+              }`}
           ></span>
           <span
-            className={`h-[2px] w-[30px] rounded-full bg-black transition-transform duration-100 ${
-              nav ? "scale-x-0" : ""
-            }`}
+            className={`h-[2px] w-[30px] rounded-full bg-black transition-transform duration-100 ${nav ? "scale-x-0" : ""
+              }`}
           ></span>
           <span
-            className={`h-[2px] w-[30px] rounded-full bg-black transition-transform duration-100 ${
-              nav ? "rotate-45 -translate-y-1.5" : ""
-            }`}
+            className={`h-[2px] w-[30px] rounded-full bg-black transition-transform duration-100 ${nav ? "rotate-45 -translate-y-1.5" : ""
+              }`}
           ></span>
         </div>
       </button>
