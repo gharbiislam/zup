@@ -12,7 +12,7 @@ h1{
     @apply text-h1 text-black;
 }
 h2{
-    @apply text-h2 text-black_60;
+    @apply text-h2 text-white_60;
 }
 h3 {
     @apply text-h3 text-black;
@@ -38,3 +38,6 @@ h5 {
     @apply text-black text-h4 hover:[word-spacing:-0.3rem]
 }
 
+footer a{
+     @apply  text-body   hover:[word-spacing:-0.3rem] text-white_60 hover:text-white
+}
