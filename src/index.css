@@ -57,5 +57,7 @@ footer a{
 .bounce {
   @apply animate-bounce;
 }
-
+.card{
+    @apply flex flex-col gap-10 p-10 border border-white_20 rounded-2xl items-center justify-center
+}
 
