@@ -41,3 +41,16 @@ h5 {
 footer a{
      @apply  text-body   hover:[word-spacing:-0.3rem] text-white_60 hover:text-white
 }
+.msg_black{
+    @apply text-bubble rounded-3xl py-3 px-5 text-bg_white bg-black w-[383px]
+}
+.msg_white{
+    @apply text-bubble rounded-3xl py-3 px-5 bg-bg_white w-[383px]
+}
+.number_card{
+    @apply bg-[url('../src/assets/img/sky.png')] bg-repeat object-none px-10 pb-9 content-center rounded-2xl
+}
+.pill {
+  @apply text-h4-md lg:text-h4 py-3 px-6 bg-bg_white rounded-full text-center ;
+}
+
