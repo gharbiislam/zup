@@ -54,3 +54,12 @@ footer a{
   @apply text-h4-md lg:text-h4 py-3 px-6 bg-bg_white rounded-full text-center ;
 }
 
+.bounce {
+  @apply animate-bounce;
+}
+.card{
+    @apply flex flex-col gap-10 p-10 border border-white_20 rounded-2xl items-center justify-center
+}
+.badge{
+    @apply py-2 px-4  rounded-full bg-black_5 text-body
+}
