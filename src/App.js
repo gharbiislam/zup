@@ -1,15 +1,15 @@
 // App.js
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Blog from "./pages/Blog";
-import BlogDetails from "./pages/BlogDetails";
+import Projects from "./pages/Projects";
+import ProjectDetails from "./pages/ProjectDetails";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Blog />} />           {/* <-- Root route */}
-        <Route path="/blog/:slug" element={<BlogDetails />} /> {/* Dynamic route */}
+        <Route path="/" element={<Projects />} />          
+        <Route path="/projects/:slug" element={<ProjectDetails />} />
       </Routes>
     </Router>
   );

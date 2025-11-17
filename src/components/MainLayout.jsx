@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 
 const MainLayout = ({ children }) => {
  return (
- <div>
+ <div className='bg-black_5 '> 
  <Navbar ></Navbar>
  
  <main >
