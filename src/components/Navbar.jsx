@@ -3,7 +3,7 @@ import Button from './Button'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import { Link } from 'react-router-dom';
 const Navbar = () => {
   const [nav, setNav] = useState(false)
   const handleClick = () => setNav(!nav)
@@ -20,11 +20,11 @@ const Navbar = () => {
 
     <header className='  flex justify-between items-center lg:px-10 px-6 py-4  '>
 
-      <span className='logo_black'>2zup</span>
+      <Link to={'/'}><span className='logo_black'>2zup</span></Link>
 
       <nav className='hidden lg:flex gap-16 items-center web '>
         <ul className='flex gap-10 '>
-          <li><a href="#projects" > [ Projects ]</a></li>
+          <li><a href="projects" > [ Projects ]</a></li>
           <li>  <a href="#services" > [ Services ]</a></li>
           <li><a href="#about" > [ About ]</a> </li>
           <li> <a href="#pricing" > [ Pricing ]</a> </li>
@@ -55,7 +55,7 @@ const Navbar = () => {
       <nav className={!nav ? 'hidden' : ' text-h5 absolute top-20 left-0 w-full px-10 flex flex-col gap-4'} data-aos="fade-up" data-aos-duration="0">
 
         <ul className=' text-right flex flex-col gap-4'>
-          <li> <a href="#projects" > Projects </a></li>
+          <li> <a href="projects" > Projects </a></li>
           <li> <a href="#services" > Services </a> </li>
           <li><a href="#about" >  About </a> </li>
           <li><a href="#pricing" >  Pricing </a>  </li>

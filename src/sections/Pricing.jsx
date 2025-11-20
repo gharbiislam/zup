@@ -34,7 +34,7 @@ const Pricing = () => {
     },
   ];
   return (
-    <section className="mt-[200px] px-10 flex flex-col gap-10">
+    <section className="mt-[200px] px-10 flex flex-col gap-10" id="pricing">
       <div className="lg:flex justify-between">
         <h5 className="text-h5 text-black">[06 Pricing]</h5>
         <h2 className="text-h2-md lg:text-h2 text-black  lg:w-2/3 lg:text-right">

@@ -7,17 +7,22 @@ import About from '../sections/About'
 import Testimonials from '../sections/Testimonials'
 import Workflow from '../sections/Workflow'
 import Pricing from '../sections/Pricing'
+import Blog from '../sections/Blog'
+import Projects from '../sections/Projects'
 
 const Home = () => {
   return (
-   <MainLayout className=''>
+   <MainLayout >
+    <div className='pb-[200px]'>
     <HeroSection></HeroSection>
+    <Projects></Projects>
     <Services></Services>
     <Workflow></Workflow>
     <Features></Features>
     <About></About>
     <Testimonials></Testimonials>
     <Pricing></Pricing>
+    <Blog></Blog></div>
    </MainLayout>
   )
 }

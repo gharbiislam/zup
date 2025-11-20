@@ -11,7 +11,7 @@ import logo6 from "../assets/img/logo/logo6.png";
 import Button from "../components/Button";
 const About = () => {
   return (
-    <section className="mt-[200px] md:mx-2">
+    <section className="mt-[200px] md:mx-2" id="about">
       <div className="bg-black rounded-2xl text-white ">
         <div className="flex flex-col pt-[100px] md:px-8 px-5 pb-[200px] gap-[120px] lg:gap-[200px]">
           {/**first block */}

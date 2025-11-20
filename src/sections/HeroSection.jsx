@@ -10,7 +10,7 @@ const HeroSection = () => {
   return (
     <div className='pt-[120px] px-10 flex flex-col gap-10 lg:gap-20'>
 
-      <h1 className='text-h1-sm lg:text-h1 md:text-h1-md  text-black relative lg:left-40  '>Studio</h1>
+      <h1 className='text-h1-sm lg:text-h1 md:text-h1-md  text-black relative lg:pl-40 overflow-hidden  '>Studio</h1>
       <div className='flex  flex-col lg:flex-row justify-between gap-10'>
         <div className='flex flex-col md:flex-row md:justify-between  gap-6 lg:gap-10 order-2 lg:order-1'>
           <div data-aos="fade-up" date-aos-delay="0" className='flex flex-row md:flex-col justify-between items-center'>

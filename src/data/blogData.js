@@ -8,7 +8,7 @@ export const blogs=[
     {
         id:1,
         title:'Why a Strong Brand Identity Is Essential',
-        slug:'Why a Strong Brand Identity Is Essential',
+        slug:'Why-a-Strong-Brand-Identity-Is-Essential',
         date:'Apr 30, 2025',
         category:['Branding','Strategy','SEO'],
         img :blog1,
@@ -36,7 +36,7 @@ export const blogs=[
     {
         id:2,
         title:'The Power of Consistent Design',
-       slug:'The Power of Consistent Design',
+       slug:'The-Power-of-Consistent-Design',
         date:'Apr 30, 2025',
         category:['Branding','Strategy','SEO'],
         img :blog2,
@@ -65,7 +65,7 @@ export const blogs=[
     {
         id:3,
         title:'How to Nail Your Website Strategy',
-        slug:'How to Nail Your Website Strategy',
+        slug:'How-to-Nail-Your-Website-Strategy',
         date:'Apr 30, 2025',
         category:['Branding','Strategy','SEO'],
         img :blog3,
@@ -94,7 +94,7 @@ export const blogs=[
     {
         id:6,
         title:'When to Rebrand (and Why)',
-        slug:'When to Rebrand (and Why)',
+        slug:'When-to-Rebrand-(and Why)',
         date:'Apr 30, 2025',
         category:['Branding','Strategy','SEO'],
         img :blog6,
@@ -123,7 +123,7 @@ export const blogs=[
     {
         id:4,
         title:'What Makes a Great Logo?',
-        slug:'What Makes a Great Logo?',
+        slug:'What-Makes-a-Great-Logo?',
         date:'Apr 30, 2025',
         category:['Branding','Strategy','SEO'],
         img :blog4,
@@ -152,7 +152,7 @@ export const blogs=[
     {
         id:5,
         title:'Client Onboarding Done Right',
-       slug:'Client Onboarding Done Right',
+       slug:'Client-Onboarding-Done-Right',
         date:'Apr 30, 2025',
         category:['Branding','Strategy','SEO'],
         img :blog5,
