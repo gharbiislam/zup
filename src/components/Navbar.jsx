@@ -18,8 +18,8 @@ const Navbar = () => {
 
   return (
 
-    <header className='  flex justify-between items-center lg:px-10 px-6 py-4  '>
-
+    <header className='  bg-white'>
+<div className='  bg-black_5 flex justify-between items-center lg:px-10 px-6 py-4'>
       <Link to={'/'}><span className='logo_black'>2zup</span></Link>
 
       <nav className='hidden lg:flex gap-16 items-center web '>
@@ -65,7 +65,7 @@ const Navbar = () => {
         <Button className='w-full'>Get in Touch</Button>
       </nav>
 
-
+</div>
     </header>
   )
 }

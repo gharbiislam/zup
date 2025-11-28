@@ -10,10 +10,12 @@ import BlogDetails from "./pages/BlogDetails"
 import Page404 from "./pages/404";
 import Terms from "./pages/Terms";
 import Privacy from "./pages/Privacy";
+import FadeScreen from "./components/FadeScreen";
 
 function App() {
   return (
      <Router>
+      <FadeScreen/>
       <Routes>
         <Route path="/404" element={<Page404/>} />
         <Route path="/" element={<Home />} />   
