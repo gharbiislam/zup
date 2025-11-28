@@ -9,6 +9,7 @@ import Workflow from '../sections/Workflow'
 import Pricing from '../sections/Pricing'
 import Blog from '../sections/Blog'
 import Projects from '../sections/Projects'
+import Faq from '../sections/Faq'
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
     <About></About>
     <Testimonials></Testimonials>
     <Pricing></Pricing>
+    <Faq></Faq>
     <Blog></Blog></div>
    </MainLayout>
   )

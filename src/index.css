@@ -12,7 +12,7 @@ h1{
     @apply text-h1 text-black;
 }
 h2{
-    @apply text-h2 text-white_60;
+    @apply text-h2 text-white_60 leading-tight;
 }
 h3 {
     @apply text-h3 text-black;
